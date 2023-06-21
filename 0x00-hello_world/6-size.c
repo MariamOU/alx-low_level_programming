@@ -1,13 +1,15 @@
 #include<stdio.h>
+/**                                                                                                                                                         
+ * main - the entry function                                                                                                                                
+ * Description: 'Program that uses printf'                                                                                                                  
+ * Return: Always 0 (Success)                                                                                                                               
+ */
 int main(void)
 {
-char charType;
-int intType;
-float floatType;
-double doubleType;
-printf("The size of char is: %zu byte\n", sizeof(charType));
-printf("The size of integer is: %zu bytes\n", sizeof(intType));
-printf("The size of float is: %zu bytes\n", sizeof(floatType));
-printf("The size of double is: %zu bytes\n", sizeof(doubleType));   
+printf("Size of a char: %c byte(s)\n", sizeof(char));
+printf("Size of an int: %d byte(s)\n", sizeof(short int));
+printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %lld byte(s)\n", sizeof(double));   
+printf("Size of a float: %f byte(s)\n", sizeof(float));
 return (0);
 }
