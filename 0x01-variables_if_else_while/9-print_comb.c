@@ -7,13 +7,17 @@
 int main(void)
 {
 int c;
-
-for (c = 0; c <= 8; c++)
+int d;
+ 
+for (c = 0; c <= 9; c++)
+{
+for (d = 0; d <= 8; d++)
 {
 putchar('0' + c);
-putchar(',');
+putchar(',' + d);
 putchar(' ');
 }
-putchar('0' + 9 + '\n');
+}
+putchar('\n');
 return (0);
 }
