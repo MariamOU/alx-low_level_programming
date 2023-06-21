@@ -2,7 +2,7 @@
 /**
  * main - the entry function
  * Description: 'Program uses putchar'
- * Return: Alway 0 (SUCCESS) 
+ * Return: Alway 0 (SUCCESS)
  */
 int main(void)
 {
