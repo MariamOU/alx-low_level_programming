@@ -1,8 +1,8 @@
 #include<stdio.h>
 /* This is a program that uses the function puts and return always 0
- *main funtion
- *Description 
- */
+main funtion
+Description 
+*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
