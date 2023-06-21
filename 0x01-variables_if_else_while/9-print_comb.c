@@ -7,16 +7,15 @@
 int main(void)
 {
 int c;
+int d;
 
 for (c = 0; c <= 9; c++)
 {
+for (d = 0; d < 9; d++)
 {
 putchar('0' + c);
-}
-for (c = 0; c <= 8; c++)
-{
-putchar(',');
-putchar(' ');
+putchar(',' + d);
+putchar(' ' + d);
 }
 }
 putchar('\n');
