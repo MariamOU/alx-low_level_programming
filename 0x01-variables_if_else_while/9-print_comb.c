@@ -1,20 +1,17 @@
 #include<stdio.h>
-/**                                                                                                                                                         
- * main - the entry function                                                                                                                                
- * Description: 'Program uses putchar'                                                                                                                      
- * Return: Alway 0 (SUCCESS)                                                                                                                                
+/**
+ * main - the entry function
+ * Description: 'Program uses putchar'
+ * Return: Alway 0 (SUCCESS) 
  */
 int main(void)
 {
 int c;
 
-for (c = 'a'; c <= 'z'; c++)
+for (c = 0; c <= 9; c++)
 {
-putchar(c);
-}
-for (c = 'A'; c <= 'Z'; c++)
-{
-putchar(c);
+putchar('0' + c);
+putchar(',');
 }
 putchar('\n');
 return (0);
