@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main - Entry point
- * Description: 'the program's description'
- * Return: Always 0 (Success)
+ * main - the entry function
+ * Description: 'Program that uses printf'
+* Return: Always 0 (Success)
  */
 int main(void)
 {
