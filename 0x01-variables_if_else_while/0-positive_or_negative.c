@@ -14,6 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	return (0);
 	/* your code goes there */
 	If(n < 0)
 	{
@@ -27,5 +28,4 @@ int main(void)
 	{
 	printf("is positive");
 	}
-	return (0);
 }
