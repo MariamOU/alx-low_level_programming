@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - the entry function
- * Description: 'Program that uses printf' 
+ * Description: 'Program that uses printf'
  * Return: Always 0 (Success)
  */
 int main(void)
