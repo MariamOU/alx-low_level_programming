@@ -3,7 +3,7 @@
  * main - the main function
  * Description: description'
  *
- * Returns : 0 (Success)
+ * Return : 0 (Success)
  */
 int main(void)
 {
