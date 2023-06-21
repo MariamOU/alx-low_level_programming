@@ -13,6 +13,7 @@ for (c = 0; c <= 8; c++)
 putchar('0' + c);
 putchar(',');
 putchar(' ');
+putchar('9');
 }
 putchar('\n');
 return (0);
