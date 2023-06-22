@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * print_alphabet_x10 - the entry function
- * Description: 'Program uses _putchar'
- * Return: Always 0 (SUCCESS)
+ * Description: 'Program uses print_alphabet_x10'
+ * Return: alphabet 10 times
  */
 void print_alphabet_x10(void)
 {

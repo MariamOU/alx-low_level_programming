@@ -3,7 +3,7 @@
 /**
  * _isalpha - the entry function
  * @c: the character that is checked
- * Description: 'Program uses _putchar'
+ * Description: 'Program uses _isalpha'
  * Return: 1 or 0
  */
 int _isalpha(int c)

@@ -3,8 +3,8 @@
 /**
  * _islower - the entry function
  * @c: the character that is checked
- * Description: 'Program uses _putchar'
- * Return: Always 0 (SUCCESS)
+ * Description: 'Program uses _islower'
+ * Return: 0 or 1
  */
 int _islower(int c)
 {

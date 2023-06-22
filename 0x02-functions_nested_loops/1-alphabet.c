@@ -3,7 +3,7 @@
 /**
  * print_alphabet - the entry function
  * Description: 'Program uses _putchar'
- * Return: Always 0 (SUCCESS)
+ * Return: Alphabet
  */
 void print_alphabet(void)
 {
