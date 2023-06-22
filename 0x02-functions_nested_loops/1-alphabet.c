@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main - the entry function
+ * print_alphabet - the entry function
  * Description: 'Program uses _putchar'
  * Return: Always 0 (SUCCESS)
  */
@@ -13,4 +13,5 @@ for (i = 'a'; i <= 'z'; i++)
 {
 _putchar(i);
 }
+_putchar('\n');
 }
