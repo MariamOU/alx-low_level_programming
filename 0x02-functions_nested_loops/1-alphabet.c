@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "main.h"
 /**
  * main - the entry function
  * Description: 'Program uses printf'

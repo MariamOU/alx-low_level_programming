@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "main.h"
-void print_alphabet(void)
+void _putchar()
 {
 char i;
 
