@@ -1,9 +1,5 @@
 #include<stdio.h>
-/**
- * main - the entry function
- * Description: 'Program uses printf'
- * Return: Always 0 (SUCCESS)
- */
+#include "main.h"
 void print_alphabet(void)
 {
 char i;
