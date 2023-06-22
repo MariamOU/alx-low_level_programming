@@ -1,17 +1,10 @@
-#include<stdio.h>
-#include "main.h"
+#include<stdlib.h>
 /**
  * _putchar - check the code
- *
+ * Description: 'Program uses _putchar function'
  * Return: Always 0.
  */
-void _putchar(void)
+int _putchar(char i)
 {
-char i;
-
-for (i = 'a'; i <= 'z'; i++)
-{
-_putchar(i);
-}
-return (0);
+write(&i);
 }
