@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include "main.h"
 /**
  * print_sign - the entry function
@@ -22,6 +23,6 @@ int print_sign(int n)
 	else
 	{
 		return (-1);
-		_putchar('-');
+		write('-');
 	}
 }
