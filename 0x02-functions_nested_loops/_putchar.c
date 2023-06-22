@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include "main.h"
-void _putchar()
+/**
+ * _putchar - check the code
+ *
+ * Return: Always 0.
+ */
+void _putchar(void)
 {
 char i;
 
