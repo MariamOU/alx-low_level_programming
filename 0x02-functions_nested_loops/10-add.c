@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * add - the entry function
+ * @a @b: the characters that are checked
  * Description: 'Program uses the function add'
  * Return: a value
  */
