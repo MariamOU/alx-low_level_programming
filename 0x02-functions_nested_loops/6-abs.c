@@ -10,20 +10,10 @@ int _abs(int n)
 {
 int a;
 
-if (n > 0)
+if (n < 0)
 {
-a = n;
-_putchar(a);
+a = n * -1;
+return (a);
 }
-else if (n == 0)
-{
-a = -n;
-_putchar(a);
-}
-else
-{
-a = -n;
-_putchar(a);
-}
-return (0);
+return (n);
 }
