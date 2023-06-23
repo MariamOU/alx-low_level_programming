@@ -9,19 +9,21 @@ int main(void)
 int c;
 int d;
 
-for ((c = 0; c <= 9; c++) && (d = 0; d <= 9; d++))
+for (c = 0; c <= 9; c++)
 {
-if (c != d)
-{
-	putchar('0' + c + d);
-	if (c != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-}
-}
-
+	for (d = 0; d <= 9; d++)
+	{
+		
+		if (c != d)
+			{
+				putchar('0' + c + d);
+				if (c != 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+			}
+	}
 putchar('\n');
 return (0);
 }
