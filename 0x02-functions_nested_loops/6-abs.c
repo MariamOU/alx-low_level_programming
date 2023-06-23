@@ -15,10 +15,14 @@ if (n > 0)
 a = n;
 _putchar(a);
 }
-else if (n < 0)
+else if (n == 0)
 {
 a = -n;
 _putchar(a);
 }
-return (1);
+else
+{
+a = -n;
+_putchar(a);
+}
 }
