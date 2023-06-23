@@ -13,7 +13,6 @@ for (c = 0; c <= 9; c++)
 {
 	for (d = 0; d <= 9; d++)
 	{
-		
 		if (c != d)
 			{
 				putchar('0' + c + d);
@@ -26,4 +25,5 @@ for (c = 0; c <= 9; c++)
 	}
 putchar('\n');
 return (0);
+}
 }
