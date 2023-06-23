@@ -12,43 +12,43 @@ void times_table(void)
 	for (a = 0; a <= 9; a++)
 		{
 			printf("%d", a);
-			printf("\n");
 		}	
+		printf("\n");
 	for (a = 0; a <= 9; a++)
 		{
 			printf("%d", a*2);
-			printf("\n");
 		}
+		printf("\n");
 	for (a = 0; a <= 9; a++)
 		{
 			printf("%d", a*3);
-			printf("\n");
 		}
+		printf("\n");
 	for (a = 0; a <= 9; a++)
 		{
 			printf("%d", a*4);
-			printf("\n");
 		}
+		printf("\n");
 	for (a = 0; a <= 9; a++)
 		{
 			printf("%d", a*5);
-			printf("\n");
 		}
+		printf("\n");
 		for (a = 0; a <= 9; a++)
 		{
 			printf("%d", a*6);
-			printf("\n");
 		}
+		printf("\n");
 	for (a = 0; a <= 9; a++)
 		{
 			printf("%d", a*7);
-			printf("\n");
 		}
+		printf("\n");
 	for (a = 0; a <= 9; a++)
 		{
 			printf("%d", a*8);
-			printf("\n");
 		}
+		printf("\n");
 	for (a = 0; a <= 9; a++)
 		{
 			printf("%d", a*9);
