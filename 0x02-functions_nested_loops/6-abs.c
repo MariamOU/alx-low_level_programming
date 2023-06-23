@@ -25,4 +25,5 @@ else
 a = -n;
 _putchar(a);
 }
+return (0);
 }
