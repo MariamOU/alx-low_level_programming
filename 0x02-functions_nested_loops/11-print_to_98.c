@@ -14,11 +14,11 @@ void print_to_98(int n)
 				{
 					if (n == 98)
 						{
-							printf("%d ", n);
+							putchar('0' + n);
 						}
 					else
 						{
-						  fprintf(stderr,"%d,", n);
+						  printf("%d,", n);
 						  printf(" ");
 						}
 				}
