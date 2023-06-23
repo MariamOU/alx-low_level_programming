@@ -20,4 +20,5 @@ else if (n < 0)
 a = -n;
 _putchar(a);
 }
+return (1);
 }
