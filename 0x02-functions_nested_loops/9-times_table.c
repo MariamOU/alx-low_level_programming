@@ -11,6 +11,11 @@ void times_table(void)
 	
 	for (a = 0; a <= 9; a++)
 		{
+			printf("%d, ", a*0);
+		}	
+		printf("\n");
+	for (a = 0; a <= 9; a++)
+		{
 			printf("%d, ", a);
 		}	
 		printf("\n");
@@ -51,6 +56,6 @@ void times_table(void)
 		printf("\n");
 	for (a = 0; a <= 9; a++)
 		{
-			printf("%d, ", a*9);
+			printf("%d", a*9);
 		}	
 }
