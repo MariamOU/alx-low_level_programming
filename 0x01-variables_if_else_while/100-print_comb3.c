@@ -11,7 +11,7 @@ int d;
 
 for (c = 0; c <= 9; c++)
 {
-	for (d = c + 1; d <= 9; d++
+  for (d = c + 1; d <= 9; d++)
 	  {
 	    if (c != d)
 	      {
