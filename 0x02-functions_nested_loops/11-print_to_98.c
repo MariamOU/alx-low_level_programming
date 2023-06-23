@@ -12,9 +12,9 @@ void print_to_98(int n)
 	{
 		if (n > 0)
 		{
-			printf(n);
-			printf(",");
-			printf("\n");
+			_putchar('0' + n);
+			_putchar(",");
+			_putchar("\n");
 		}
 	}
 }
