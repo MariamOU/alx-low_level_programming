@@ -15,7 +15,6 @@ for (d = 0; d <= 9; d++)
 {
 putchar('0' + c + d);
 }
-putchar('0' + d);
 if (c != 9)
 {
 putchar(',');
