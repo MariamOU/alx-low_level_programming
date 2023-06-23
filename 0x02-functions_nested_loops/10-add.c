@@ -5,10 +5,8 @@
  * Description: 'Program uses the function add'
  * Return: a value
  */
-int add(int, int)
+int add(int a, int b)
 {
-int a;
-int b;
 int addition;
 
 addition = a + b;
