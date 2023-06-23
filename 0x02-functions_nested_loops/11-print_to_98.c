@@ -18,8 +18,8 @@ void print_to_98(int n)
 						}
 					else
 						{
-							printf("%d, ", n);
-							printf(" ");
+						  fprintf(stderr,"%d,", n);
+						  printf(" ");
 						}
 				}
 		}
