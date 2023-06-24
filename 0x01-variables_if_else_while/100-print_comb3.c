@@ -17,7 +17,7 @@ for (c = 0; c <= 9; c++)
 	      {
 		putchar('0' + c);
 		putchar('0' + d);
-		if (c != 8 && d != 9)
+		if (c != 8 || d != 9)
 		  {
 		    putchar(',');
 		    putchar(' ');
