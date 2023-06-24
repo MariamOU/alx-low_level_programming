@@ -10,21 +10,21 @@ int c;
 int d;
 
 for (c = 0; c <= 9; c++)
-{
-  for (d = c; d <= 9; d++)
+  {
+    for (d = c; d <= 9; d++)
+      {
+	if (c != d)
 	  {
-	    if (c != d)
+	    putchar('0' + c);
+	    putchar('0' + d);
+	    if (c != 8 || d != 9)
 	      {
-		putchar('0' + c);
-		putchar('0' + d);
-		if (c != 8 || d != 9)
-		  {
-		    putchar(',');
-		    putchar(' ');
-		  }
+		putchar(',');
+		putchar(' ');
 	      }
 	  }
-}
+      }
+  }
 putchar('\n');
 return (0);
 }
