@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - the entry function
- * Description: 'Program uses putchar and prints all the different combinations of two digits'
+ * Description: 'Program prints all the different combinations of two digits'
  * Return: Alway 0 (SUCCESS)
  */
 int main(void)
