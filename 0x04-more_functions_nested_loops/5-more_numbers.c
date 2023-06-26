@@ -19,4 +19,5 @@ _putchar('0' + a);
 }
 _putchar('\n');
 }
+return (0);
 }
