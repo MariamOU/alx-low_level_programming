@@ -4,7 +4,6 @@
  * more_numbers - the entry function
  * Description: 'Program uses the function _putchar to print numbers (0 to 14)
  * 10 times'
- * return : Always 0 (SUCCESS)
  */
 void more_numbers(void)
 {
@@ -17,7 +16,6 @@ for (a = 0; a <= 14; a++)
 {
 _putchar('0' + a);
 }
-_putchar('\n');
 }
-return (0);
+_putchar('\n');
 }
