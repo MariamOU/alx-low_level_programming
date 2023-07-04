@@ -1,0 +1,10 @@
+#include<stdlib.h>
+/**
+ * _putchar - check the code
+ * Description: 'Program uses _putchar function'
+ * Return: Always 0
+ */
+int _putchar(char i)
+{
+write(&i);
+}
