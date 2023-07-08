@@ -8,5 +8,5 @@
  */
 int _putchar(char i)
 {
-write(&i);
+
 }
