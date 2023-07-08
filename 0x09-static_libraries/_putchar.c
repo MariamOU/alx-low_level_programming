@@ -8,5 +8,5 @@
  */
 int _putchar(char i)
 {
-
+return (0);
 }
