@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _puts - the entry function
- * @*s: the third character that is checked
+ * @s: the third character that is checked
  * Description: 'Program uses _puts()'
  * Return: 0
  */

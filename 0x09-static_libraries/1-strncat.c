@@ -4,7 +4,7 @@
  * _strncat - the entry function
  * @dest: the first character that is checked
  * @src: the second character that is checked
- * @n: the third character that is checked 
+ * @n: the third character that is checked
  * Description: 'Program uses _strncat()'
  * Return: 0
  */

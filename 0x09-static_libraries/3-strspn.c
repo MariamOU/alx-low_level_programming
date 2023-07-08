@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * _strspn - the entry function
- * @*s: the first character that is checked
- * @*accept: the second character that is checked
+ * @s: the first character that is checked
+ * @accept: the second character that is checked
  * Description: 'Program uses _strspn()'
  * Return: 0
  */

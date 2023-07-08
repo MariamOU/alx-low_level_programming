@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _strlen - the entry function
- * @*s: the character that is checked
+ * @s: the character that is checked
  * Description: 'Program uses _strlen()'
  * Return: 0
  */
