@@ -1,4 +1,5 @@
 #include<stdlib.h>
+#include "main.h"
 /**
  * _putchar - check the code
  * @i: the character to print
