@@ -6,7 +6,7 @@
  * Description: 'Program uses _puts()'
  * Return: 0
  */
-void _puts(char *s);
+void _puts(char *s)
 {
 
 }
