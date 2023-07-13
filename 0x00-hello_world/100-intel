@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S 100-intel.c -o $CFILE=IntelSyntax
+gcc -S CFILE=100-intel.c
