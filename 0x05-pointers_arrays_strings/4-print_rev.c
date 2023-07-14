@@ -1,12 +1,12 @@
 #include<stdlib.h>
 #include "main.h"
 /**
- * _print_rev - the entry function
+ * print_rev - the entry function
  * @s: the variable s
  * Description: 'Program uses _putchar'
  * Return: an int
  */
-void _print_rev(char *s)
+void print_rev(char *s)
 {
 int i = 0;
 
