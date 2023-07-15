@@ -14,7 +14,7 @@ int *ptr = a;
 
 for (i = 0; i < n; i++)
 {
-if(i != n - 1)
+if (i != n - 1)
 {
 printf("%d", *ptr);
 printf(",");
@@ -24,7 +24,6 @@ ptr++;
 else
 {
 printf("%d", *ptr);
-printf(" ");
 ptr++;
 }
 }
