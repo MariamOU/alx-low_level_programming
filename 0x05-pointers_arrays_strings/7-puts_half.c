@@ -13,7 +13,7 @@ int i;
 int lenght = strlen(str);
 int n = (lenght - 1) / 2;
 
-for (i = lenght / 2; i < lenght; i++)
+for (i = (lenght + 1) / 2; i < lenght; i++)
 {
 _putchar(str[i]);
 }
