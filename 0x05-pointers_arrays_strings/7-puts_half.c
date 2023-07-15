@@ -12,7 +12,7 @@ void puts_half(char *str)
 int i;
 int lenght = strlen(str);
 
-for (i = lenght / 2; i < (lenght - 1); i++)
+for (i = lenght / 2; i < lenght; i++)
 {
 _putchar(str[i]);
 }
