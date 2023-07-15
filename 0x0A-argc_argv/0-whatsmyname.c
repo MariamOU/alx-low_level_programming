@@ -1,5 +1,4 @@
 #include<stdlib.h>
-#include "main.h"
 /**
  * main - the entry function
  * @argc: the variable argc
@@ -11,7 +10,7 @@ int main(int argc, char *argv[])
 {
 if (argc > 0)
 {
-printf("%s", arg[0]);
+printf("%s", argv[0]);
 }
 return (0);
 }
