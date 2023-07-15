@@ -10,7 +10,7 @@
 char *_strcpy(char *dest, char *src)
 {
 char *ptr = src;
-char *dest = *ptr;
+*dest = *ptr;
 
 printf("%s", dest);
 printf("\n");
