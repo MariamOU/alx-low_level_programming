@@ -9,10 +9,10 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-  char *ptr = src;
-  *dest = *ptr;
+char *ptr = src;
+*dest = *ptr;
 
-  printf("Copied string: %s\n", dest);
-  printf("\n");
-  return (0);
+printf("%s", dest);
+printf("\n");
+return (0);
 }
