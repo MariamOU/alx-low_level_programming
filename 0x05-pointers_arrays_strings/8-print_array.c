@@ -10,8 +10,8 @@
 void print_array(int *a, int n)
 {
 int i;
-int arr[];
-*a = arr;
+int arr[n];
+*a = &arr;
 
 for (i = 0; i < n; i++)
 {
