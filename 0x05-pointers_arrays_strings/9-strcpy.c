@@ -13,6 +13,7 @@ char *ptr = src;
 *dest = *ptr;
 
 printf("%s", dest);
+ptr++;
 printf("\n");
 return (0);
 }
