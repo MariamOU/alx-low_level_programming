@@ -14,6 +14,6 @@ int lenght = 0;
 for (i = 0; i <= str[lenght]; i++)
 {
 _putchar(str[i]);
-_putchar('\n');
 }
+_putchar('\n');
 }
