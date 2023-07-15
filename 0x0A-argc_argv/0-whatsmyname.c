@@ -1,4 +1,5 @@
 #include<stdlib.h>
+#include<stdio.h>
 /**
  * main - the entry function
  * @argc: the variable argc
