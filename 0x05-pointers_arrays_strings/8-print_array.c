@@ -9,11 +9,12 @@
  */
 void print_array(int *a, int n)
 {
-int arr[a];
+int i;
+int arr[n];
 
-for (a = 0; a < n; a++)
+for (i = 0; i < n; i++)
 {
-printf("[%d]", arr[a]);
+printf("[%d]", arr[i]);
 }
 printf("\n");
 }
