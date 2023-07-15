@@ -9,7 +9,8 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-  char *dest = *src;
+  char *ptr = src;
+  dest = *ptr;
 
   printf("Copied string: %s\n", dest);
   printf("\n");
