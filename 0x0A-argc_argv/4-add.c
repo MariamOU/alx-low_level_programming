@@ -11,14 +11,13 @@
 int main(int argc, char *argv[])
 {
 int i;
-int j;
+int j = 0;
 
 for (i = 1; i < argc; i++)
 {
-j = atoi(argv[i]);
-if (isdigit(j))
+if (isdigit(argv[i]))
 {
-j += j;
+j = j + atoi(argv[i]);
 printf("%d", j);
 }
 else
@@ -30,3 +29,4 @@ return (1);
 }
 return (0);
 }
+ 
