@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+/**
+* main - the entry function
+* Description: 'program uses printf to display the name of the file'
+* return: Always 0 (SUCCESS)
+*/
+
+int main(void)
+{
+	printf("%s \n", ___FILE___);
+	return (0);
+}
