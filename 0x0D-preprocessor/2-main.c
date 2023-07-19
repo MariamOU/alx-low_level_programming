@@ -2,7 +2,6 @@
 
 /**
 * main - prints thename of the file
-* Description: 'program uses printf'
 * Return: Always 0 (SUCCESS)
 */
 
