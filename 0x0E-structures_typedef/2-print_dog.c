@@ -12,6 +12,8 @@ if (d == NULL)
 {
 return;
 }
+else if (nam
+{
 printf("Name: %s\n", d->name ? d->name : "(nil)");
 printf("Age: %.2f\n", d->age);
 printf("Owner: %s\n", d->owner ? d->owner : "(nil)");
