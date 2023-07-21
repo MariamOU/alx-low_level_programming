@@ -17,7 +17,7 @@ va_start(args, n);
 
 for (i = 0; i < n; i++)
 {
-inetger = va_arg(args, int);
+integer = va_arg(args, int);
 printf("Integer number %d", integer);
 
 if (separator != NULL && i != n - 1)
