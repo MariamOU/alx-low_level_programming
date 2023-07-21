@@ -19,16 +19,19 @@ if (format[i] == 'c')
 {
 int charac = va_arg(args, int);
 printf("%c", charac);
+printf(", ");
 }
 else if (format[i] == 'i')
 {
 int I_number = va_arg(args, int);
 printf("%d", I_number);
+printf(", ");
 }
 else if (format[i] == 'f')
 {
 double F_number = va_arg(args, double);
 printf("%f", F_number);
+printf(", ");
 }
 else if (format[i] == 's')
 {
@@ -36,6 +39,7 @@ char *string = va_arg(args, char *);
 if (string == NULL)
 {
 printf("(nil)");
+printf(", ");
 }
 else
 {
