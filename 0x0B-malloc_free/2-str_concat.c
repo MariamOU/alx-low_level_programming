@@ -12,7 +12,7 @@ char *str_concat(const char *s1, const char *s2)
 {
 size_t total_length;
 char *concatenated;
- 
+
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
