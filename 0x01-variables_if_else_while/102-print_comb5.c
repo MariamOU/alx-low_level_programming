@@ -4,7 +4,7 @@
  * Description: 'Program prints differents combinations of two two digits'
  * Return: Alway 0 (SUCCESS)
  */
-int main()
+int main(void)
 {
     for (int i = 0; i < 100; i++)
       {
