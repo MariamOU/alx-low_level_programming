@@ -1,6 +1,25 @@
-#include<stdlib.h>
-#include<stdio.h>
-#include<ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+/**
+ * is_all_digits - is al digit test function
+ * @str: the variable tested
+ * Description: 'Program uses is_all_digits'
+ * Return: a booleen
+ */
+bool is_all_digits(const char *str)
+{
+while (*str)
+{
+if (*str < '0' || *str > '9')
+{
+return (false);
+}
+str++;
+}
+return (true);
+}
+
 /**
  * main - the entry function
  * @argc: the variable argc
@@ -10,23 +29,35 @@
  */
 int main(int argc, char *argv[])
 {
+int sum = 0;
 int i;
-int j = 0;
 
+if (argc == 1)
+{
+printf("0\n");
+return (0);
+}
 for (i = 1; i < argc; i++)
 {
-if (isdigit(argv[i]))
+if (is_all_digits(argv[i]))
 {
-j = j + atoi(argv[i]);
-printf("%d", j);
+int num = atoi(argv[i]);
+if (num > 0)
+{
+sum += num;
 }
 else
 {
-printf("Error");
-printf("\n");
+printf("Error\n");
 return (1);
 }
 }
+else
+{
+printf("Error\n");
+return (1);
+}
+}
+printf("%d\n", sum);
 return (0);
 }
- 
