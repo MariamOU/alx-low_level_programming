@@ -8,7 +8,9 @@
 * @name: the name of the dog
 * @age: age of the dog
 * @owner: owner of the dog
-* return: New dog or NULL
+* Description: 'Program uses the function *new_dog'
+* return: A pointer to the created structure
+* NULL if the function fails
 */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -22,6 +24,14 @@ return (NULL);
 NewDog->name = (char *)malloc((strlen(name) + 1) * sizeof(char));
 NewDog->owner = (char *)malloc((strlen(owner) + 1) * sizeof(char));
 
+
+if (NewDog->name == NULL || NewDog->owner == NULL)
+{
+free(NewDog->name);
+free(NewDog->owner);
+free(NewDog);
+return (NULL);
+}
 
 strcpy(NewDog->name, name);
 strcpy(NewDog->owner, owner);
