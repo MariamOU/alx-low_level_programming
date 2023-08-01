@@ -41,6 +41,6 @@ strcpy(concat + position, av[i]);
 position += strlen(av[i]);
 concat[position++] = '\n';
 }
-concat[position - 1] = '\0';
+
 return (concat);
 }
