@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _print_rev_recursion - the entry function
+ * _strlen_recursion - the entry function
  * @s: the variable s
- * Description: 'Program uses _print_rev_recursion'
- * Return: a string
+ * Description: 'Program uses _strlen_recursion'
+ * Return: The lenght of a string
  */
 int _strlen_recursion(char *s)
 {
