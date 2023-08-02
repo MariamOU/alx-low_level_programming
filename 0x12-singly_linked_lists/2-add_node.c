@@ -18,22 +18,19 @@ if (str == NULL)
 {
 return (NULL);
 }
-
 NewNode = (list_t *)malloc(sizeof(list_t));
 if (NewNode == NULL)
 {
 return (NULL);
 }
-
 NewNode->str = strdup(str);
 if (NewNode->str == NULL)
 {
 free(NewNode);
 return (NULL);
 }
-
 NewNode->next = *head;
-
-printf("[%lu] %s\n", strlen(NewNode->str), NewNode->str);
+*head = NewNode;
+printf("[%lu] %s\n", strlen((*head)->str), (*head)->str);
 return (NewNode);
 }
