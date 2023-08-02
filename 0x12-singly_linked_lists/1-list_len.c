@@ -7,7 +7,7 @@
  * list_len - function that counts the number of elements in a linked list
  * @h: the pointer to the first node in the linked list
  * Description: 'Program uses the function list_len'
- * return: number of elements
+ * Return: number of elements
  */
 
 size_t list_len(const list_t *h)
