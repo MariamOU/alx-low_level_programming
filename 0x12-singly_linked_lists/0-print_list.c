@@ -9,9 +9,10 @@
  */
 size_t print_list(const list_t *h)
 {
-const list_t *current = h;
+const list_t *current = NULL ;
 size_t count = 0;
 
+current = h;
 while (current != NULL)
 {
 if (current->str != NULL)
@@ -21,11 +22,10 @@ printf("\n");
 }
 else
 {
-printf("[%d] (nil)", current->len);
+printf("[%ld] (nil)", count);
 printf("\n");
 }
 current = current->next;
-if (current != NULL)
 count++;
 }
 return (count);
