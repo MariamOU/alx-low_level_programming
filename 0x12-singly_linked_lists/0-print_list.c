@@ -12,22 +12,21 @@ size_t print_list(const list_t *h)
 const list_t *current = h;
 size_t count = 0;
 
-printf("[");
 while (current != NULL)
 {
 if (current->str != NULL)
 {
-printf("'%s'", current->str);
+printf("[%d] %s ", current->len, current->str);
+printf("\n");
 }
 else
 {
-printf("[0] (nil)");
+printf("[%d] (nil)", current->len);
+printf("\n");
 }
 current = current->next;
 if (current != NULL)
-printf(", ");
 count++;
 }
-printf("]\n");
 return (count);
 }
