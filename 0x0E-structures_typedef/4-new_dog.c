@@ -9,7 +9,7 @@
 * @age: age of the dog
 * @owner: owner of the dog
 * Description: 'Program uses the function *new_dog'
-* return: A pointer to the created structure
+* Return: A pointer to the created structure
 * NULL if the function fails
 */
 
