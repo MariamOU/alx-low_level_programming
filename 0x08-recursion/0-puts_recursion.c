@@ -1,20 +1,19 @@
 #include<stdlib.h>
-#include<stdio.h>
+#include<unistd.h>
 #include "main.h"
 /**
  * _puts_recursion - the entry function
  * @s: the variable s
- * Description: 'Program uses printf'
+ * Description: 'Program uses _putchar'
  * Return: a string
  */
 void _puts_recursion(char *s)
 {
-int i = 0;
-
-while (s[i] != '\0')
+if (*s == '\0')
 {
-	printf(s[i]);
-	i++;
+_putchar('\n');
+return;
 }
-	printf("\n");
+_putchar(*s);
+_puts_recursion(s + 1);
 }
