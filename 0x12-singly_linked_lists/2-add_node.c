@@ -19,10 +19,6 @@ if (str == NULL)
 return (NULL);
 }
 NewNode = (list_t *)malloc(sizeof(list_t));
-if (NewNode == NULL)
-{
-return (NULL);
-}
 NewNode->str = strdup(str);
 if (NewNode->str == NULL)
 {
