@@ -12,16 +12,20 @@
 
 int main(int argc, char *argv[])
 {
+int number1;
+int number2;
+int mulresult;
+
     if (argc != 3)
 {
         printf("Error\n");
         return (1);
     }
 
-    int number1 = atoi(argv[1]);
-    int number2 = atoi(argv[2]);
+    number1 = atoi(argv[1]);
+    number2 = atoi(argv[2]);
 
-    int mulresult = number1 * number2;
+    mulresult = number1 * number2;
     printf("%d\n", mulresult);
 
     return (0);
