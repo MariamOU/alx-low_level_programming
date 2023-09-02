@@ -22,11 +22,11 @@ printf("Error\n");
 return (1);
 }
 
-    number1 = atoi(argv[1]);
-    number2 = atoi(argv[2]);
+number1 = atoi(argv[1]);
+number2 = atoi(argv[2]);
 
-    mulresult = number1 * number2;
-    printf("%d\n", mulresult);
+mulresult = number1 * number2;
+printf("%d\n", mulresult);
 
 return (0);
 }
