@@ -7,7 +7,7 @@
  * @argc: number of arguments
  * @argv: array of strings
  * Description: 'Program uses main function'
- * Return: Always 0
+ * Return: Always 0 or 1
  */
 
 int main(int argc, char *argv[])
