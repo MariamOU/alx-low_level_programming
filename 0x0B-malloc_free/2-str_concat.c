@@ -23,8 +23,8 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-size_t len1 = strlen(s1);
-size_t len2 = strlen(s2);
+len1 = strlen(s1);
+en2 = strlen(s2);
 
 concatenated = (char *)malloc((len1 + len2 + 1) * sizeof(char));
 
