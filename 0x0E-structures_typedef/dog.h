@@ -2,12 +2,16 @@
 #define DOG_H
 
 /**
- * dog - structure name
- *
+ * struct dog - structure name
+ * @name: first member
+ * @age: second member
+ * @owner: third member
+ * Description: The structure dog contains 3 different data type members
  */
-struct dog{
-  char *name;
-  float age;
-  char *owner;
+struct dog
+{
+char *name;
+float age;
+char *owner;
 };
 #endif /* DOG_H */
