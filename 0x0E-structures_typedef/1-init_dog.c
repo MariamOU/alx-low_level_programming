@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include "dog.h"
+#include<string.h>
 /**
  * init_dog - the function
  * @d: the structure name
