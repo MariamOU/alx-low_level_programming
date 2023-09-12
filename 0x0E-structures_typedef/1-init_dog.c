@@ -17,7 +17,7 @@ if (d == NULL || name == NULL || owner == NULL)
 {
 return;
 }
-strncpy(d->name, name, sizeof(d->name));
+strncpy(d->name, name, sizeof(d->name) - 1);
 d->age = age;
-strncpy(d->owner, owner, sizeof(d->owner));
+strncpy(d->owner, owner, sizeof(d->owner) - 1);
 }
