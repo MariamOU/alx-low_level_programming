@@ -13,7 +13,7 @@ int sum = 0;
 unsigned int i;
 int x;
 
-if(n == 0)
+if (n == 0)
 {
 return (0);
 }
