@@ -16,6 +16,7 @@ printf("I bore my house upon my back!\n");
  * Description: program uses the function before_main
  * Return: nothing
 */
+__attribute__((constructor))
 void before_main()
 {
 printBeforeMain();
