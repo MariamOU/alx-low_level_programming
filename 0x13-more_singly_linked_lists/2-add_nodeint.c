@@ -7,7 +7,7 @@
  * @head: The first node of the list
  * @n: The input integer
  * Description: program uses the function *add_nodeint
- * Return: The number of nodes
+ * Return: The new node
 */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
