@@ -4,7 +4,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 /**
- * read_textfile - function that reads and write a textfile
+ * create_file - function that reads and write a textfile
  * @filename: name of the file
  * @text_content: a NULL terminated string to write to the file
  * Description: program uses the function create_file()
