@@ -40,7 +40,7 @@ int fd_from, fd_to;
 file_from = argv[1];
 file_to = argv[2];
 if (argc != 3)
-exit_error(97, "Usage: cp file_from file_to");
+{exit_error(97, "Usage: cp file_from file_to"); }
 fd_from = open(file_from, O_RDONLY);
 if (fd_from == -1)
 {
@@ -69,7 +69,7 @@ dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_from);
 exit(100);
 }
 if (close(fd_to) == -1)
-dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_to);
-exit(100);
+{dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_to);
+exit(100); }
 return (0);
 }
